@@ -1,0 +1,21 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    environment:
+      BEAST_REPLAY_ONLY: "1"
+      BEAST_CONFIG_PATH: /app/backend/beast_config.pi.json
+    volumes:
+      - ./backend/replay:/app/backend/replay
+    ports:
+      - "5000:5000"
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    depends_on:
+      - backend
+    ports:
+      - "8080:8080"

@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    font-family: Monospace;
+    background-color: #000;
+    color: #fff;
+    overflow: hidden; /* Hide scrollbars */
+}
+
+#toggle-panel, #toggle-fullscreen {
+    position: absolute;
+    top: 10px;
+    z-index: 20;
+    background-color: rgba(8, 24, 8, 0.9);
+    color: #b8ffb8;
+    border: 1px solid #2d8f2d;
+    border-radius: 4px;
+    padding: 6px 10px;
+    cursor: pointer;
+    font-size: 0.8em;
+}
+
+#toggle-panel {
+    right: 130px;
+}
+
+#toggle-fullscreen {
+    right: 10px;
+}
+
+canvas {
+    display: block; /* Remove default inline-block spacing */
+    width: 100vw;
+    height: 100vh;
+}
+
+body.panel-collapsed #info-panel {
+    display: none;
+}
+
+#info-panel {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid #0f0;
+    border-radius: 5px;
+    color: #0f0;
+    max-width: 360px;
+    max-height: 92vh;
+    overflow-y: auto;
+    z-index: 10;
+}
+
+h1 {
+    margin: 0 0 10px 0;
+    font-size: 1.2em;
+    border-bottom: 1px solid #0f0;
+    padding-bottom: 5px;
+}
+
+p, #status {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+
+#status {
+    font-style: italic;
+    color: #0a0;
+}
+
+label, select {
+    display: block;
+    margin: 4px 0;
+    font-size: 0.9em;
+}
+
+select {
+    background-color: #001a00;
+    color: #9f9;
+    border: 1px solid #0f0;
+    border-radius: 4px;
+    padding: 4px 6px;
+}
+
+#details-panel {
+    margin-top: 10px;
+    padding-top: 8px;
+    border-top: 1px solid #0f0;
+}
+
+#details-panel h2 {
+    margin: 0 0 6px 0;
+    font-size: 1em;
+}
+
+#details-content {
+    white-space: pre-line;
+    line-height: 1.35;
+    color: #b8ffb8;
+    font-size: 0.85em;
+}
+
+#zones-panel, #events-panel {
+    margin-top: 10px;
+    padding-top: 8px;
+    border-top: 1px solid #0f0;
+}
+
+#zones-panel h2, #events-panel h2 {
+    margin: 0 0 6px 0;
+    font-size: 1em;
+}
+
+#zones-content, #events-content {
+    white-space: pre-line;
+    line-height: 1.35;
+    color: #b8ffb8;
+    font-size: 0.8em;
+}
+
+#replay-controls {
+    display: block;
+    margin: 6px 0;
+}
+
+#replay-controls button {
+    background-color: #102a10;
+    color: #b8ffb8;
+    border: 1px solid #2d8f2d;
+    border-radius: 4px;
+    padding: 4px 8px;
+    cursor: pointer;
+    font-size: 0.8em;
+}
+
+#replay-controls select, #replay-controls input[type="range"] {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 4px 0 6px 0;
+}
+
+.replay-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+#replay-status {
+    margin-top: 4px;
+    font-size: 0.8em;
+    color: #8ae68a;
+}

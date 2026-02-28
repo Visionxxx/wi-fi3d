@@ -1,0 +1,59 @@
+source_id,room,floor,group,stable,note
+DD:EE:FF:00:22:01,,,BLE,1,name=Unknown BLE device;seen=101;protocol=bluetooth
+DD:EE:FF:00:22:02,,,BLE,1,name=Unknown BLE device;seen=101;protocol=bluetooth
+DD:EE:FF:00:22:03,,,BLE,1,name=Unknown BLE device;seen=98;protocol=bluetooth
+DD:EE:FF:00:22:04,,,BLE,1,name=Unknown BLE device;seen=90;protocol=bluetooth
+AA:BB:CC:00:22:01,,,WiFi,1,name=Neighbor_Net1;seen=86;protocol=wifi
+AA:BB:CC:00:22:02,,,WiFi,1,name=;seen=86;protocol=wifi
+DD:EE:FF:00:22:05,,,BLE,1,name=Unknown BLE device;seen=84;protocol=bluetooth
+AA:BB:CC:00:22:03,,,WiFi,1,name=Neighbor_Net2;seen=81;protocol=wifi
+AA:BB:CC:00:22:04,,,WiFi,1,name=Neighbor_Net2;seen=81;protocol=wifi
+AA:BB:CC:00:22:05,Office,1,NeighborAP,1,name=Neighbor_Net2;seen=81;protocol=wifi
+AA:BB:CC:00:11:04,,,WiFi,1,name=MyNetwork;seen=81;protocol=wifi
+AA:BB:CC:00:22:06,,,WiFi,1,name=;seen=81;protocol=wifi
+AA:BB:CC:00:22:07,,,WiFi,1,name=;seen=81;protocol=wifi
+AA:BB:CC:00:22:08,,,WiFi,1,name=Neighbor_Net1;seen=81;protocol=wifi
+AA:BB:CC:00:22:09,,,WiFi,1,name=Neighbor_Net1_24;seen=81;protocol=wifi
+AA:BB:CC:00:22:10,,,WiFi,1,name=Neighbor_Net2;seen=81;protocol=wifi
+AA:BB:CC:00:22:11,,,WiFi,1,name=Neighbor_Net2;seen=81;protocol=wifi
+AA:BB:CC:00:22:12,,,WiFi,1,name=Neighbor_Net2;seen=81;protocol=wifi
+AA:BB:CC:00:11:01,LivingRoom,1,CoreAP,1,name=MyNetwork_5G;seen=81;protocol=wifi
+AA:BB:CC:00:11:04,LivingRoom,1,CoreAP,1,name=MyNetwork_Guest;seen=81;protocol=wifi
+AA:BB:CC:00:11:05,,,WiFi,1,name=MyNetwork_5G;seen=81;protocol=wifi
+AA:BB:CC:00:22:13,,,WiFi,1,name=Neighbor_Net3_5G;seen=81;protocol=wifi
+AA:BB:CC:00:22:14,,,WiFi,1,name=;seen=81;protocol=wifi
+AA:BB:CC:00:22:15,,,WiFi,1,name=Neighbor_Net4;seen=81;protocol=wifi
+DD:EE:FF:00:22:06,,,BLE,1,name=Unknown BLE device;seen=80;protocol=bluetooth
+AA:BB:CC:00:22:16,,,WiFi,1,name=Neighbor_Net4;seen=80;protocol=wifi
+DD:EE:FF:00:22:07,,,BLE,1,name=Unknown BLE device;seen=79;protocol=bluetooth
+DD:EE:FF:00:22:08,,,BLE,1,name=Unknown BLE device;seen=78;protocol=bluetooth
+DD:EE:FF:00:22:09,,,BLE,1,name=Unknown BLE device;seen=72;protocol=bluetooth
+AA:BB:CC:00:22:17,,,WiFi,1,name=Neighbor_Net3;seen=70;protocol=wifi
+DD:EE:FF:00:22:10,,,BLE,1,name=Unknown BLE device;seen=67;protocol=bluetooth
+AA:BB:CC:00:22:18,Hallway,1,NeighborAP,1,name=Neighbor_Net3;seen=64;protocol=wifi
+DD:EE:FF:00:22:11,,,BLE,1,name=Unknown BLE device;seen=60;protocol=bluetooth
+DD:EE:FF:00:22:12,,,BLE,1,name=Unknown BLE device;seen=57;protocol=bluetooth
+DD:EE:FF:00:22:13,,,BLE,1,name=Unknown BLE device;seen=56;protocol=bluetooth
+DD:EE:FF:00:22:14,,,BLE,1,name=Unknown BLE device;seen=35;protocol=bluetooth
+DD:EE:FF:00:22:15,,,BLE,1,name=Unknown BLE device;seen=34;protocol=bluetooth
+DD:EE:FF:00:22:16,,,BLE,1,name=Unknown BLE device;seen=28;protocol=bluetooth
+DD:EE:FF:00:22:17,,,BLE,1,name=Unknown BLE device;seen=27;protocol=bluetooth
+DD:EE:FF:00:22:18,,,BLE,1,name=Unknown BLE device;seen=22;protocol=bluetooth
+DD:EE:FF:00:22:19,,,BLE,1,name=Unknown BLE device;seen=18;protocol=bluetooth
+DD:EE:FF:00:22:20,,,BLE,0,name=Unknown BLE device;seen=14;protocol=bluetooth
+DD:EE:FF:00:22:21,,,BLE,0,name=Unknown BLE device;seen=13;protocol=bluetooth
+DD:EE:FF:00:22:22,,,BLE,0,name=Unknown BLE device;seen=12;protocol=bluetooth
+DD:EE:FF:00:22:23,,,BLE,0,name=Unknown BLE device;seen=12;protocol=bluetooth
+DD:EE:FF:00:22:24,,,BLE,0,name=Unknown BLE device;seen=12;protocol=bluetooth
+DD:EE:FF:00:22:25,,,BLE,0,name=Unknown BLE device;seen=8;protocol=bluetooth
+DD:EE:FF:00:22:26,,,BLE,0,name=Unknown BLE device;seen=7;protocol=bluetooth
+DD:EE:FF:00:22:27,,,BLE,0,name=Unknown BLE device;seen=6;protocol=bluetooth
+DD:EE:FF:00:22:28,,,BLE,0,name=Unknown BLE device;seen=2;protocol=bluetooth
+DD:EE:FF:00:22:29,,,BLE,0,name=Unknown BLE device;seen=1;protocol=bluetooth
+DD:EE:FF:00:22:30,,,BLE,0,name=Unknown BLE device;seen=1;protocol=bluetooth
+DD:EE:FF:00:22:31,,,BLE,0,name=Unknown BLE device;seen=1;protocol=bluetooth
+DD:EE:FF:00:22:32,,,BLE,0,name=Unknown BLE device;seen=1;protocol=bluetooth
+DD:EE:FF:00:22:33,,,BLE,0,name=Unknown BLE device;seen=1;protocol=bluetooth
+DD:EE:FF:00:22:34,,,BLE,0,name=Unknown BLE device;seen=1;protocol=bluetooth
+DD:EE:FF:00:22:35,,,BLE,0,name=Unknown BLE device;seen=1;protocol=bluetooth
+DD:EE:FF:00:22:36,,,BLE,0,name=Unknown BLE device;seen=1;protocol=bluetooth

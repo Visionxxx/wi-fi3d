@@ -1,0 +1,47 @@
+{
+  "timestep_seconds": 5,
+  "freshness_seconds": 30,
+  "grace_seconds": 120,
+  "max_active_sources": 60,
+  "smoothing": {
+    "ewma_alpha": 0.3,
+    "median_window": 3,
+    "wifi": {
+      "ewma_alpha": 0.3,
+      "median_window": 3
+    },
+    "bluetooth": {
+      "ewma_alpha": 0.18,
+      "median_window": 5
+    }
+  },
+  "scoring": {
+    "min_samples": 15,
+    "max_lag": 2,
+    "add_threshold": 0.65,
+    "remove_threshold": 0.48,
+    "top_k_per_node": 4,
+    "co_visibility_weight": 0.2,
+    "correlation_weight": 0.6,
+    "cross_corr_weight": 0.2
+  },
+  "zones": {
+    "edge_confidence_threshold": 0.6,
+    "stability_lock_ticks": 4
+  },
+  "change_detection": {
+    "drift_window": 24,
+    "moved_neighbor_overlap_threshold": 0.35
+  },
+  "validation": {
+    "zone_purity_min": 0.68,
+    "zone_coverage_min": 0.7,
+    "floor_consistency_min": 0.68,
+    "stable_node_recall_min": 0.75,
+    "avg_edge_churn_max": 0.4
+  },
+  "logging": {
+    "enabled": true,
+    "path": "backend/replay/live_capture.ndjson"
+  }
+}

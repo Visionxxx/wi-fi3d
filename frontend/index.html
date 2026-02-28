@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signal 3D Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="toggle-panel" type="button" title="Minimize/expand panel">Hide Panel</button>
+    <button id="toggle-fullscreen" type="button" title="Toggle fullscreen">Fullscreen</button>
+    <div id="info-panel">
+        <h1>Signal 3D Visualizer</h1>
+        <label for="mode-select">Mode:</label>
+        <select id="mode-select">
+            <option value="wifi" selected>Wi-Fi</option>
+            <option value="bluetooth">Bluetooth</option>
+            <option value="beast">Beast mode</option>
+        </select>
+        <div id="replay-controls">
+            <label for="replay-file">Replay file:</label>
+            <select id="replay-file"></select>
+            <div class="replay-buttons">
+                <button id="replay-start" type="button">Start</button>
+                <button id="replay-pause" type="button">Pause</button>
+                <button id="replay-resume" type="button">Resume</button>
+                <button id="replay-stop" type="button">Stop</button>
+                <button id="replay-reset" type="button">Reset</button>
+            </div>
+            <input id="replay-seek" type="range" min="0" max="0" value="0" step="1" />
+            <div id="replay-status">Replay: idle</div>
+        </div>
+        <p>Scanning for networks...</p>
+        <div id="status"></div>
+        <div id="details-panel">
+            <h2>Node details</h2>
+            <div id="details-content">Klikk en node for detaljer.</div>
+        </div>
+        <div id="zones-panel">
+            <h2>Zones</h2>
+            <div id="zones-content">Ingen soner ennå.</div>
+        </div>
+        <div id="events-panel">
+            <h2>Events</h2>
+            <div id="events-content">Ingen events.</div>
+        </div>
+    </div>
+    <canvas id="c"></canvas>
+
+    <!-- Import map for modern module loading -->
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+            }
+        }
+    </script>
+
+    <!-- Load main script as a module -->
+    <script type="module" src="main.js"></script>
+</body>
+</html>

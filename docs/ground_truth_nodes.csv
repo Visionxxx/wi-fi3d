@@ -1,0 +1,6 @@
+source_id,room,floor,group,stable
+AA:BB:CC:00:11:01,LivingRoom,1,CoreAP,1
+AA:BB:CC:00:11:04,LivingRoom,1,CoreAP,1
+AA:BB:CC:00:11:05,Office,1,NeighborAP,1
+AA:BB:CC:00:11:06,Hallway,1,NeighborAP,1
+AA:BB:CC:DD:EE:FF,Unknown,1,Mobile,0

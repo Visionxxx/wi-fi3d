@@ -1,0 +1,11 @@
+{"ts": 1700000000.0, "pipeline": "wifi", "source_id": "AA:BB:CC:00:11:01", "source_type": "wifi", "rssi": -42, "name": "MyNetwork_5G", "channel": 36, "band": "5 GHz"}
+{"ts": 1700000000.0, "pipeline": "wifi", "source_id": "AA:BB:CC:00:11:02", "source_type": "wifi", "rssi": -61, "name": "Neighbor_AP1", "channel": 6, "band": "2.4 GHz"}
+{"ts": 1700000000.0, "pipeline": "bluetooth", "source_id": "DD:EE:FF:00:11:01", "source_type": "bluetooth", "rssi": -68, "name": "BT-Speaker", "band": "Bluetooth"}
+{"ts": 1700000002.0, "pipeline": "wifi", "source_id": "AA:BB:CC:00:11:01", "source_type": "wifi", "rssi": -44, "name": "MyNetwork_5G", "channel": 36, "band": "5 GHz"}
+{"ts": 1700000002.0, "pipeline": "wifi", "source_id": "AA:BB:CC:00:11:02", "source_type": "wifi", "rssi": -59, "name": "Neighbor_AP1", "channel": 6, "band": "2.4 GHz"}
+{"ts": 1700000002.0, "pipeline": "bluetooth", "source_id": "DD:EE:FF:00:11:01", "source_type": "bluetooth", "rssi": -66, "name": "BT-Speaker", "band": "Bluetooth"}
+{"ts": 1700000004.0, "pipeline": "wifi", "source_id": "AA:BB:CC:00:11:01", "source_type": "wifi", "rssi": -46, "name": "MyNetwork_5G", "channel": 36, "band": "5 GHz"}
+{"ts": 1700000004.0, "pipeline": "wifi", "source_id": "AA:BB:CC:00:11:02", "source_type": "wifi", "rssi": -57, "name": "Neighbor_AP1", "channel": 6, "band": "2.4 GHz"}
+{"ts": 1700000004.0, "pipeline": "bluetooth", "source_id": "DD:EE:FF:00:11:01", "source_type": "bluetooth", "rssi": -63, "name": "BT-Speaker", "band": "Bluetooth"}
+{"ts": 1700000006.0, "pipeline": "wifi", "source_id": "AA:BB:CC:00:11:03", "source_type": "wifi", "rssi": -53, "name": "Neighbor_AP2", "channel": 44, "band": "5 GHz"}
+{"ts": 1700000006.0, "pipeline": "bluetooth", "source_id": "DD:EE:FF:00:11:02", "source_type": "bluetooth", "rssi": -72, "name": "Headset", "band": "Bluetooth"}
